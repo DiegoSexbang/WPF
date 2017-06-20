@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPF.RCanciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="RCanciones" Height="450" Width="793.5">
+    <Grid>
+        <MediaElement x:Name="myMedia" HorizontalAlignment="Left" Height="246" Margin="286,36,0,0" VerticalAlignment="Top" Width="430" MediaOpened="myMedia_MediaOpened_1"/>
+        <ListBox x:Name="lbCancion" HorizontalAlignment="Left" Height="208" Margin="32,74,0,0" VerticalAlignment="Top" Width="194" SelectionChanged="lbCancion_SelectionChanged"/>
+        <ComboBox x:Name="cmbLista" HorizontalAlignment="Left" Margin="32,36,0,0" VerticalAlignment="Top" Width="194" SelectionChanged="cmbLista_SelectionChanged"/>
+        <Button x:Name="Salir" Content="Salir" HorizontalAlignment="Left" Margin="615,343,0,0" VerticalAlignment="Top" Width="51" Height="38" Click="Salir_Click"/>
+        <Slider x:Name="timelineSlider" Margin="372,305,163,91" ValueChanged="SeekToMediaPosition" />
+        <Button x:Name="muteButt" Content="Mute" Margin="531,0,188,38" Padding="5" Click="mediaMute" Height="38" VerticalAlignment="Bottom" />
+        <Button Content="Pause" Margin="454,0,260,38" Padding="5" Click="mediaPause" Height="38" VerticalAlignment="Bottom" />
+        <Button Content="Play" Margin="386,0,337,38" Padding="5" Height="38"  VerticalAlignment="Bottom" Click="mediaPlay"  />
+        <Label x:Name="txtRuta" Content="Label" HorizontalAlignment="Left" Margin="52,305,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

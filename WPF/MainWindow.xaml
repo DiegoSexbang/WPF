@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Productos" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Grid Background="#08000000" ShowGridLines="True" Height="313">
+        <Grid.ColumnDefinitions>
+           
+        </Grid.ColumnDefinitions>
+        <Grid Height="48" Width="352" Margin="83,216,68,48" Grid.ColumnSpan="6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="28*" />
+                <ColumnDefinition Width="324*" />
+            </Grid.ColumnDefinitions>
+            <Button Content="Guardar" Height="23" HorizontalAlignment="Left" Margin="10,11,0,0" Name="Guardar" Width="74" VerticalAlignment="Top" Grid.ColumnSpan="2" Click="Guardar_Click" />
+                <Button Content="Eliminar" Height="23" HorizontalAlignment="Left" Margin="63,11,0,0" Name="Eliminar" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="Eliminar_Click" />
+                <Button Content="Listado" Height="23" HorizontalAlignment="Left" Margin="144,11,0,0" Name="Listado" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="Listado_Click" DataContext="{Binding}" />
+            <Button Content="Limpiar" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="225,11,0,0" Name="btnLimpiar" VerticalAlignment="Top" Width="75" Click="btnLimpiar_Click" />
+        </Grid>
+        <Label Content="MANTENCION DE PRODUCTOS" Height="34" HorizontalAlignment="Left" Margin="142,12,0,0" Name="label1" VerticalAlignment="Top" Width="228" FontWeight="Bold" />
+        <Grid Height="100" HorizontalAlignment="Left" Margin="85,63,0,0" Name="grid1" VerticalAlignment="Top" Width="350" Grid.ColumnSpan="6">
+            
+            <TextBox Height="23" HorizontalAlignment="Right" Margin="0,10,222,0" Name="txtCodigo" VerticalAlignment="Top" Width="53"  LostFocus="txtCodigo_LostFocus"/>
+            <Label Content="Codigo" Height="28" HorizontalAlignment="Left" Margin="2,10,0,0" Name="lblCodigo" VerticalAlignment="Top" Grid.Column="1" />
+            <Label Content="Producto" Height="28" HorizontalAlignment="Left" Margin="2,44,0,0" Name="lblProducto" VerticalAlignment="Top" Grid.Column="1" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="75,46,0,0" Name="txtProducto" VerticalAlignment="Top" Width="120" Grid.Column="1" />
+        </Grid>
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="85,178,0,0" Name="cmbProductos" VerticalAlignment="Top" Width="212" ItemsSource="{Binding}" SelectionChanged="cmbProductos_SelectionChanged" DropDownClosed="cmbProductos_DropDownClosed" />
+    </Grid>
+</Window>

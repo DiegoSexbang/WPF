@@ -1,0 +1,15 @@
+i:\documents\visual studio 2010\Projects\WPF\Modelo\bin\Debug\Modelo.dll
+i:\documents\visual studio 2010\Projects\WPF\Modelo\bin\Debug\Modelo.pdb
+i:\documents\visual studio 2010\Projects\WPF\Modelo\obj\Debug\Modelo.dll
+i:\documents\visual studio 2010\Projects\WPF\Modelo\obj\Debug\Modelo.pdb
+I:\Documents\Visual Studio 2010\Projects\WPF\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Modelo\bin\Debug\Modelo.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Modelo\bin\Debug\Modelo.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Modelo\obj\Debug\Modelo.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\Clases\WPF\Modelo\bin\Debug\Modelo.dll
+C:\Users\Diego\Desktop\Clases\WPF\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\Clases\WPF\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\Diego\Desktop\Clases\WPF\Modelo\obj\Debug\Modelo.dll
+C:\Users\Diego\Desktop\Clases\WPF\Modelo\obj\Debug\Modelo.pdb

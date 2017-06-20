@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPF.ListadoProductos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ListadoProductos" Height="378" Width="531">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="258*" />
+            <ColumnDefinition Width="20*" />
+        </Grid.ColumnDefinitions>
+        <DataGrid AutoGenerateColumns="True" Height="200" HorizontalAlignment="Left" Margin="90,70,0,0" Name="GrillaProductos" VerticalAlignment="Top" Width="295" ItemsSource="{Binding}" MouseDoubleClick="GrillaProductos_MouseDoubleClick"></DataGrid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="90,41,0,0" Name="txtCodProducto" VerticalAlignment="Top" Width="81" TextChanged="txtCodProducto_TextChanged" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="199,41,0,0" Name="txtNombreProducto" VerticalAlignment="Top" Width="120" TextChanged="txtNombreProducto_TextChanged" />
+        <Label Content="Codigo" Height="28" HorizontalAlignment="Left" Margin="90,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Producto" Height="28" HorizontalAlignment="Left" Margin="199,12,0,0" Name="label2" VerticalAlignment="Top" />
+        <Button  Height="23" HorizontalAlignment="Left" Margin="325,40,0,0" Name="btnBuscar" VerticalAlignment="Top" Width="38" Click="btnBuscar_Click">
+            <Image Source="imagenes\Buscar.png" Height="15" Width="19"></Image>
+        </Button>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,41,65,0" Name="btnLimpiar" VerticalAlignment="Top" Width="38" Click="btnLimpiar_Click">
+            <Image Height="15" Source="imagenes\refresh.gif" Width="19" />
+        </Button>
+    </Grid>
+</Window>

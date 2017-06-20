@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF.ListadoCanciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="ListadoCanciones" Height="352.128" Width="603.191">
+    <Grid>
+        <DataGrid x:Name="GrillaDatos" HorizontalAlignment="Left" Height="212" Margin="31,83,0,0" VerticalAlignment="Top" Width="534"/>
+        <TextBox x:Name="txtLista" HorizontalAlignment="Left" Height="23" Margin="59,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="txtLista_TextChanged"/>
+        <TextBox x:Name="txtArtista" HorizontalAlignment="Left" Height="23" Margin="223,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtArtista_TextChanged"/>
+        <TextBox x:Name="txtCancion" HorizontalAlignment="Left" Height="23" Margin="428,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtCancion_TextChanged"/>
+        <Label Content="Artista" HorizontalAlignment="Left" Margin="223,17,0,0" VerticalAlignment="Top"/>
+        <Label Content="Lista" HorizontalAlignment="Left" Margin="59,17,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cancion" HorizontalAlignment="Left" Margin="428,17,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

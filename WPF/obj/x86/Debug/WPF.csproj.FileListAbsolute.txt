@@ -1,0 +1,98 @@
+i:\documents\visual studio 2010\Projects\WPF\WPF\bin\Debug\WPF.exe
+i:\documents\visual studio 2010\Projects\WPF\WPF\bin\Debug\WPF.pdb
+i:\documents\visual studio 2010\Projects\WPF\WPF\obj\x86\Debug\MainWindow.baml
+i:\documents\visual studio 2010\Projects\WPF\WPF\obj\x86\Debug\MainWindow.g.cs
+i:\documents\visual studio 2010\Projects\WPF\WPF\obj\x86\Debug\App.g.cs
+i:\documents\visual studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF_MarkupCompile.cache
+i:\documents\visual studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.g.resources
+i:\documents\visual studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.Properties.Resources.resources
+i:\documents\visual studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.exe
+i:\documents\visual studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.pdb
+i:\documents\visual studio 2010\Projects\WPF\WPF\bin\Debug\Modelo.dll
+i:\documents\visual studio 2010\Projects\WPF\WPF\bin\Debug\Modelo.pdb
+i:\documents\visual studio 2010\Projects\WPF\WPF\bin\Debug\WPF.exe.config
+i:\documents\visual studio 2010\Projects\WPF\WPF\bin\Debug\Controladores.dll
+i:\documents\visual studio 2010\Projects\WPF\WPF\bin\Debug\Controladores.pdb
+i:\documents\visual studio 2010\Projects\WPF\WPF\obj\x86\Debug\ListadoProductos.baml
+i:\documents\visual studio 2010\Projects\WPF\WPF\obj\x86\Debug\ListadoProductos.g.cs
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.csprojResolveAssemblyReference.cache
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.csproj.GenerateResource.Cache
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\MenuPrincipal.baml
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\MenuPrincipal.g.cs
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Productos.baml
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Reproductor.baml
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Productos.g.cs
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Reproductor.g.cs
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Ejemplo.baml
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Ejemplo.g.cs
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Licenciamiento.baml
+I:\Documents\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Licenciamiento.g.cs
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\bin\Debug\WPF.exe.config
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.exe
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\bin\Debug\WPF.exe
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\bin\Debug\WPF.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\bin\Debug\Controladores.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\bin\Debug\Modelo.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\bin\Debug\Controladores.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\bin\Debug\Modelo.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Ejemplo.baml
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Licenciamiento.baml
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\ListadoProductos.baml
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\MainWindow.baml
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\MenuPrincipal.baml
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Productos.baml
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Reproductor.baml
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Ejemplo.g.cs
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Licenciamiento.g.cs
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\ListadoProductos.g.cs
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\MainWindow.g.cs
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\MenuPrincipal.g.cs
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Productos.g.cs
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\Reproductor.g.cs
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\App.g.cs
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF_MarkupCompile.cache
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.g.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.Properties.Resources.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\WPF\obj\x86\Debug\WPF.csproj.GenerateResource.Cache
+C:\Users\Diego\Desktop\Clases\WPF\WPF\bin\Debug\WPF.exe.config
+C:\Users\Diego\Desktop\Clases\WPF\WPF\bin\Debug\WPF.exe
+C:\Users\Diego\Desktop\Clases\WPF\WPF\bin\Debug\WPF.pdb
+C:\Users\Diego\Desktop\Clases\WPF\WPF\bin\Debug\Controladores.dll
+C:\Users\Diego\Desktop\Clases\WPF\WPF\bin\Debug\Modelo.dll
+C:\Users\Diego\Desktop\Clases\WPF\WPF\bin\Debug\Controladores.pdb
+C:\Users\Diego\Desktop\Clases\WPF\WPF\bin\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\WPF.csprojResolveAssemblyReference.cache
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Ejemplo.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Licenciamiento.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\ListadoProductos.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\MenuPrincipal.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Productos.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Reproductor.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Ejemplo.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Licenciamiento.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\ListadoProductos.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\MenuPrincipal.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Productos.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Reproductor.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\App.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\WPF_MarkupCompile.cache
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\WPF.g.resources
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\WPF.Properties.Resources.resources
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\WPF.csproj.GenerateResource.Cache
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\WPF.exe
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\WPF.pdb
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Canciones.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Listas.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\WPF_MarkupCompile.lref
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Canciones.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\Listas.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\ListadoCanciones.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\ListadoLista.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\ListadoCanciones.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\ListadoLista.baml
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\RCanciones.g.cs
+C:\Users\Diego\Desktop\Clases\WPF\WPF\obj\x86\Debug\RCanciones.baml

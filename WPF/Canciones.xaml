@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPF.Canciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="Canciones" Height="357.492" Width="563.611">
+    <Grid>
+        <ComboBox x:Name="cmbLista" HorizontalAlignment="Left" Margin="136,58,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
+        <TextBox x:Name="txtArchivo" HorizontalAlignment="Left" Height="23" Margin="392,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Archivo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="337,25,0,0"/>
+        <Label Content="Lista" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="71,58,0,0" RenderTransformOrigin="1.265,0.731"/>
+        <Button Content="..." HorizontalAlignment="Left" Margin="517,25,0,0" VerticalAlignment="Top" Width="29" Click="btnAgregar" Height="22"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="413,135,0,0" VerticalAlignment="Top" Width="75" Click="btnGuardar" RenderTransformOrigin="1.133,-1.25"/>
+        <Button Content="Actualizar" HorizontalAlignment="Left" Margin="343,196,0,0" VerticalAlignment="Top" Width="75" Click="btnActualizar" RenderTransformOrigin="0.747,0.4"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="449,196,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.335,0.501" Click="btnEliminar"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="449,254,0,0" VerticalAlignment="Top" Width="75" Click="btnSalir"/>
+        <Button Content="Listado" HorizontalAlignment="Left" Margin="343,254,0,0" VerticalAlignment="Top" Width="75" Click="btnListado"/>
+        <ListBox x:Name="lbCanciones" HorizontalAlignment="Left" Height="171" Margin="54,113,0,0" VerticalAlignment="Top" Width="246" SelectionChanged="lbCanciones_SelectionChanged"/>
+        <TextBox x:Name="txtCancion" HorizontalAlignment="Left" Height="23" Margin="392,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Cancion" HorizontalAlignment="Left" Margin="334,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.553,0.5"/>
+        <TextBox x:Name="txtArtista" HorizontalAlignment="Left" Height="23" Margin="392,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Artista" HorizontalAlignment="Left" Margin="343,89,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.955,0.538"/>
+
+    </Grid>
+</Window>

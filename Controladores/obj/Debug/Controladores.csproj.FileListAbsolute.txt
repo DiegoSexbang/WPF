@@ -1,0 +1,21 @@
+i:\documents\visual studio 2010\Projects\WPF\Controladores\bin\Debug\Controladores.dll
+i:\documents\visual studio 2010\Projects\WPF\Controladores\bin\Debug\Controladores.pdb
+i:\documents\visual studio 2010\Projects\WPF\Controladores\obj\Debug\Controladores.dll
+i:\documents\visual studio 2010\Projects\WPF\Controladores\obj\Debug\Controladores.pdb
+i:\documents\visual studio 2010\Projects\WPF\Controladores\bin\Debug\Modelo.dll
+i:\documents\visual studio 2010\Projects\WPF\Controladores\bin\Debug\Modelo.pdb
+I:\Documents\Visual Studio 2010\Projects\WPF\Controladores\obj\Debug\Controladores.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Controladores\bin\Debug\Controladores.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Controladores\bin\Debug\Controladores.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Controladores\bin\Debug\Modelo.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Controladores\bin\Debug\Modelo.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Controladores\obj\Debug\Controladores.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Controladores\obj\Debug\Controladores.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\WPF\Controladores\obj\Debug\Controladores.pdb
+C:\Users\Diego\Desktop\Clases\WPF\Controladores\bin\Debug\Controladores.dll
+C:\Users\Diego\Desktop\Clases\WPF\Controladores\bin\Debug\Controladores.pdb
+C:\Users\Diego\Desktop\Clases\WPF\Controladores\bin\Debug\Modelo.dll
+C:\Users\Diego\Desktop\Clases\WPF\Controladores\bin\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\Clases\WPF\Controladores\obj\Debug\Controladores.csprojResolveAssemblyReference.cache
+C:\Users\Diego\Desktop\Clases\WPF\Controladores\obj\Debug\Controladores.dll
+C:\Users\Diego\Desktop\Clases\WPF\Controladores\obj\Debug\Controladores.pdb

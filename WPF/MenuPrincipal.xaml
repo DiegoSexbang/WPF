@@ -1,0 +1,23 @@
+﻿<Window x:Class="WPF.MenuPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MenuPrincipal" Height="518" Width="1032">
+    <Grid Width="988" Height="588">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="102*" />
+            <ColumnDefinition Width="176*" />
+        </Grid.ColumnDefinitions>
+        <Menu Height="27" HorizontalAlignment="Left" Name="Menu" VerticalAlignment="Top" Width="1002" Grid.ColumnSpan="2" IsMainMenu="True">
+            <MenuItem Header="Archivo" Name="MenArchivo">
+                <MenuItem Header="Productos" Name="MenProductos" Click="MenProductos_Click"/>
+                <MenuItem Header="Listas" Name="MenListas" Click="MenListas_Click" />
+                <MenuItem Header="Canciones" Name="MenCanciones" Click="MenCanciones_Click"/>
+                <MenuItem Header="ReproductorMusica" Name="MenReproductorMusica" Click="MenReproductorMusica_Click" />
+            </MenuItem>
+            <MenuItem Header="Movimientos" Name="MenMovimientos">
+                <MenuItem Header="Reproductor" Name="MenReproductor" Click="MenReproductor_Click"/>
+            </MenuItem>
+            <MenuItem Header="Salir" Click="MenuItem_Click" />
+        </Menu>
+    </Grid>
+</Window>

@@ -1,0 +1,39 @@
+﻿<Window x:Class="WPF.Ejemplo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ejemplo" Height="477" Width="1112">
+    <Grid Height="403">
+      
+            <MediaElement  Height="300" HorizontalAlignment="Left" Margin="342,30,0,0" x:Name="myMedia" VerticalAlignment="Top" Width="700" IsMuted="True" IsManipulationEnabled="True" Stretch="None" OverridesDefaultStyle="True" />         
+        <ComboBox Height="25" HorizontalAlignment="Left" Margin="12,42,0,0" Name="comboBox1" VerticalAlignment="Top" Width="296">
+            <ComboBoxItem Content="Rock de los 90" />
+        </ComboBox>
+        <ListBox Height="257" HorizontalAlignment="Left" Margin="12,96,0,0" Name="listBox1" VerticalAlignment="Top" Width="296">
+            <ListBoxItem Content="1 - Twisted Sister - I Wanna rock.mp3" />
+            <ListBoxItem Content="2 - Metallica - Enter Sandman.mp3" />
+            <ListBoxItem Content="3 - Metallica - One.mpg" />
+           
+        </ListBox>
+        <Grid Height="59" HorizontalAlignment="Right" Margin="0,344,67,0" Name="grid1" VerticalAlignment="Top" Width="603">
+            <Button Height="41" HorizontalAlignment="Left" Margin="25,6,0,0" Name="button1" VerticalAlignment="Top" Width="49">
+                <Image Source="imagenes\Anterior.png "></Image>
+            </Button>
+            <Button Height="41" HorizontalAlignment="Left" Margin="80,6,0,0" Name="button2" VerticalAlignment="Top" Width="49">
+                <Image Source="imagenes\Play.png "></Image>
+            </Button>
+            <Button Height="41" HorizontalAlignment="Left" Margin="135,6,0,0" Name="button3" VerticalAlignment="Top" Width="49">
+                <Image Source="imagenes\Siguiente.png "></Image>
+            </Button>
+            <Button Height="41" HorizontalAlignment="Left" Margin="190,6,0,0" Name="button4" VerticalAlignment="Top" Width="49">
+                <Image Source="imagenes\Stop.png "></Image>
+            </Button>
+            <Button Height="41" HorizontalAlignment="Left" Margin="245,6,0,0" Name="button5" VerticalAlignment="Top" Width="49">
+                <Image Source="imagenes\Silencio.jpg "></Image>
+            </Button>
+        </Grid>
+        <Label Content="Lista de Reproduccion" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Temas" Height="28" HorizontalAlignment="Left" Margin="12,73,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="Reproduciendo:  2 - Enter Sandman.mp3" Height="28" HorizontalAlignment="Left" Margin="342,7,0,0" x:Name="lblCancion" VerticalAlignment="Top" Width="561" FontWeight="Bold" />
+        <Rectangle Height="314" HorizontalAlignment="Left" Margin="327,30,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="616" />
+    </Grid>
+</Window>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A7ED9A73-21E1-4C56-A57C-8C253214FDC3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WPF</RootNamespace>
+    <AssemblyName>WPF</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Canciones.xaml.cs">
+      <DependentUpon>Canciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplo.xaml.cs">
+      <DependentUpon>Ejemplo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Licenciamiento.xaml.cs">
+      <DependentUpon>Licenciamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoCanciones.xaml.cs">
+      <DependentUpon>ListadoCanciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoLista.xaml.cs">
+      <DependentUpon>ListadoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoProductos.xaml.cs">
+      <DependentUpon>ListadoProductos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Listas.xaml.cs">
+      <DependentUpon>Listas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.xaml.cs">
+      <DependentUpon>MenuPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.xaml.cs">
+      <DependentUpon>Productos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RCanciones.xaml.cs">
+      <DependentUpon>RCanciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RecepcionDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecepcionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reproductor.xaml.cs">
+      <DependentUpon>Reproductor.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Canciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejemplo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Licenciamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListadoCanciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListadoLista.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListadoProductos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Listas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MenuPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Productos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RCanciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reproductor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="RecepcionDataSet.xsc">
+      <DependentUpon>RecepcionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RecepcionDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RecepcionDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RecepcionDataSet.xss">
+      <DependentUpon>RecepcionDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Aceptar.png" />
+    <Resource Include="imagenes\Agregar.png" />
+    <Resource Include="imagenes\AgregaTodos.png" />
+    <Resource Include="imagenes\AgregaUno.png" />
+    <Resource Include="imagenes\Buscar.png" />
+    <Resource Include="imagenes\calendar.gif" />
+    <Resource Include="imagenes\Calendario.gif" />
+    <Resource Include="imagenes\Calendario.png" />
+    <Resource Include="imagenes\crlogo.gif" />
+    <Resource Include="imagenes\Eliminar.png" />
+    <Resource Include="imagenes\EliminaTodos.png" />
+    <Resource Include="imagenes\EliminaUno.png" />
+    <Resource Include="imagenes\export.gif" />
+    <Resource Include="imagenes\exportd.gif" />
+    <Resource Include="imagenes\export_over.gif" />
+    <Resource Include="imagenes\First.gif" />
+    <Resource Include="imagenes\Firstd.gif" />
+    <Resource Include="imagenes\first_over.gif" />
+    <Resource Include="imagenes\gotopage.gif" />
+    <Resource Include="imagenes\gotopaged.gif" />
+    <Resource Include="imagenes\gotopage_over.gif" />
+    <Resource Include="imagenes\grouptree.gif" />
+    <Resource Include="imagenes\grouptreed.gif" />
+    <Resource Include="imagenes\grouptreepressed.gif" />
+    <Resource Include="imagenes\grouptree_over.gif" />
+    <Resource Include="imagenes\Guardar.png" />
+    <Resource Include="imagenes\Last.gif" />
+    <Resource Include="imagenes\Lastd.gif" />
+    <Resource Include="imagenes\last_over.gif" />
+    <Resource Include="imagenes\Modificar.png" />
+    <Resource Include="imagenes\Next.gif" />
+    <Resource Include="imagenes\Nextd.gif" />
+    <Resource Include="imagenes\next_over.gif" />
+    <Resource Include="imagenes\Prev.gif" />
+    <Resource Include="imagenes\Prevd.gif" />
+    <Resource Include="imagenes\prev_over.gif" />
+    <Resource Include="imagenes\print.gif" />
+    <Resource Include="imagenes\printd.gif" />
+    <Resource Include="imagenes\print_over.gif" />
+    <Resource Include="imagenes\Refresh.gif" />
+    <Resource Include="imagenes\refreshd.gif" />
+    <Resource Include="imagenes\refresh_over.gif" />
+    <Resource Include="imagenes\Search.gif" />
+    <Resource Include="imagenes\searchd.gif" />
+    <Resource Include="imagenes\search_over.gif" />
+    <Resource Include="imagenes\Subir.gif" />
+    <Resource Include="imagenes\Subir.png" />
+    <Resource Include="imagenes\up.gif" />
+    <Resource Include="imagenes\upd.gif" />
+    <Resource Include="imagenes\up_over.gif" />
+    <Resource Include="imagenes\Validar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controladores\Controladores.csproj">
+      <Project>{6537768F-F693-458F-9BD8-6A18CFD6A9E1}</Project>
+      <Name>Controladores</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{FDFD68EF-ECFF-4777-8486-0CD7DF4A069A}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="audio\" />
+    <Folder Include="video\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Anterior.png" />
+    <Resource Include="imagenes\Pause.png" />
+    <Resource Include="imagenes\Play.png" />
+    <Resource Include="imagenes\Siguiente.png" />
+    <Resource Include="imagenes\Silencio.jpg" />
+    <Resource Include="imagenes\Stop.png" />
+    <Resource Include="imagenes\Volumen.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
