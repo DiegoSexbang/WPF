@@ -59,5 +59,22 @@ namespace WPF
                 datos = cc.RecuperarTabla();
             CargarGrilla(datos);
         }
+		 private void txtLista_TextChanged(object sender, TextChangedEventArgs e)
+        {
+     
+       if (txtLista.Text != "")
+        
+    {
+               datos= cc.BuscarLista(Convert.ToInt32(txtLista.Text));
+            }
+       
+     else
+            
+    datos = cc.RecuperarTabla();
+            
+	CargarGrilla(datos);
+
+     
+   }
     }
 }
