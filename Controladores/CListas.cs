@@ -9,6 +9,7 @@ namespace Controladores
 {
    public class CListas
     {
+	uguyg7yty
         private int numeroLista;
         private String nombreLista;
         private String generoLista;
